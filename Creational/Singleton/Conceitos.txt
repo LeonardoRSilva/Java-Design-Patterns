@@ -1,0 +1,15 @@
+Singleton
+
+Conceitos -
+- Garante que apenas uma instância será criada.
+- Garante o controle de um recurso ( a instanciação é controlada pela implementação do padrão).
+- Inicialização preguiçosa ( Lazily Loaded)
+- Exemplos no java - Runtime Environment, Logger, Spring Beans
+
+----------------------------------------------------------------
+Design
+- É responsável por criar a si mesmo e gerenciar seu ciclo de vida.
+- É de natureza estática, embora não seja implementado usando uma classe estática geralmente.
+- Precisa ser thread safe
+- Possui uma instancia e construtor privado de forma que chame apenas o construtor
+- * no construtor não há parametros.
